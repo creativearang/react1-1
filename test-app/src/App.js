@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Welcome from './chapter_04/Welcome';
 
 function App() {
   return (
@@ -19,6 +19,9 @@ function App() {
           Learn React 
         </a>
       </header>
+      <Welcome name="용재"></Welcome>
+      <Welcome name="용재"></Welcome>
+      <Welcome name="용재"></Welcome>
     </div>
   );
 }
