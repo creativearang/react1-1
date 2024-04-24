@@ -1,27 +1,31 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Book from "./chapter_03/Book";
+import Clock from './chapter_03/Clock';
+import Library from './chapter_03/Library';
 import Welcome from './chapter_04/Welcome';
+// import NotificationList from './chapter_04/NotificationList';
+// import Counter from './counter';
+// import FocusButton from './FocusButton';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 
-        </a>
-      </header>
-      <Welcome name="용재"></Welcome>
-      <Welcome name="용재"></Welcome>
-      <Welcome name="용재"></Welcome>
+      <Book
+        name="죽음의 수용소에서 "
+        numOfPage={459}
+      />
+      <Clock
+
+      />
+      <Library
+
+      />
+      <Welcome
+        name="creativearang"
+      />
+
     </div>
   );
 }
