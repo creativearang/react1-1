@@ -1,10 +1,10 @@
-import React from 'react';
-import Book from './chapter_03/Book';
+import React from "react";
+import Book from "./chapter_03/Book";
 
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 // // import Hello from './hello'
 // import Welcome from './chapter_04/Welcome';
 // import CommentList from './chapter_04/CommentList';
@@ -15,15 +15,12 @@ import reportWebVitals from './reportWebVitals';
 //     element,
 //     document.getElementById("root")
 // );
-const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(() => {           //setInterval 함수를 사용하여 1초마다 콜백함수가 호출되어 렌더링한다.
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}, 1000)
-
+const root = ReactDOM.createRoot(document.getElementById("root")); //setInterval 함수를 사용하여 1초마다 콜백함수가 호출되어 렌더링한다.
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
