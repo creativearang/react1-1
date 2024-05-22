@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
-import Accommodate from "./Accommodate";
+//import Accommodate from "./chapter_07/Accommodate";
 import "./App.css";
+import NameForm from "./NameForm";
 // import UserStatus from "./UserStatus";
 // import Book from "./chapter_03/Book";
 // import Clock from "./chapter_03/Clock";
@@ -11,7 +12,11 @@ import "./App.css";
 // import FocusButton from './FocusButton';
 
 function App() {
-  return <Accommodate />;
+  return (
+    <div className="App">
+      <NameForm />
+    </div>
+  );
 }
 
 export default App; //외부에서 컴포넌트를 사용가능하게 한다.
